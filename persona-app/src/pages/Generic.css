@@ -1,0 +1,7 @@
+.content {
+    font-family: "EB Garamond", serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    width: 80%;
+}

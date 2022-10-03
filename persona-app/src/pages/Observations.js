@@ -1,7 +1,14 @@
 import React from 'react';
+import "./Generic.css";
 
 export default function () {
     return (
-        <h1>observations</h1>
+        <>
+            <div className="content">
+                <div>
+                    <h1>Key Observations</h1>
+                </div>
+            </div>
+        </>
     );
 }
