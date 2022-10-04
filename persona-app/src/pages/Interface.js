@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Generic.css";
 import sketch from "../imgs/printer_sketch.png";
+import help from "../imgs/help.png";
+import qr from "../imgs/qr.png";
 
 export default function () {
     return (
@@ -32,12 +34,17 @@ export default function () {
                     </p>
 
                     <p>
-                        Each printer also has 2 flyers taped on top: the larger
+                        Each printer also has 2 flyers taped on top (see below): the larger
                         is an instructional flyer directing students to the MyPrint
                         website and the IT website for additional help. The smaller
                         is a QR code that directs to the IT website for a full list
                         of printers on campus in case student's need a different one.
                     </p>
+                </div>
+
+                <div className="dualImages">
+                    <img src={help} width={400} height={500} alt="Larger help flyer" />
+                    <img src={qr} width={400} height={500} alt="Smaller flyer with QR code" />
                 </div>
             </div>
         </>

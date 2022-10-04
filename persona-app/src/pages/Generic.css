@@ -5,3 +5,9 @@
     margin-top: 3%;
     width: 80%;
 }
+
+.dualImages {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
