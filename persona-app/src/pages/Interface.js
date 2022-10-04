@@ -19,7 +19,9 @@ export default function () {
                     </p>
                 </div>
 
-                <img src={sketch} alt="Sketch of Sci-Li printers" />
+                <div className="singleImage">
+                    <img src={sketch} width={650} height={400} alt="Sketch of Sci-Li printers" />
+                </div>
 
                 <div>
                     <p>

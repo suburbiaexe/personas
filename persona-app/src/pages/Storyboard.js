@@ -13,7 +13,9 @@ export default function () {
                     </p>
                 </div>
 
-                <img src={story} alt="6-panel storyboard documenting the Experienced Edward persona's run-in with one of the Sci-Li printers"/>
+                <div className="singleImage">
+                    <img src={story} width={1000} height={800} alt="6-panel storyboard documenting the Experienced Edward persona's run-in with one of the Sci-Li printers"/>
+                </div>
             </div>
         </>
     );

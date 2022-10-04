@@ -11,3 +11,8 @@
     justify-content: space-evenly;
     margin-bottom: 1rem;
 }
+
+.singleImage {
+    display: flex;
+    justify-content: center;
+}
